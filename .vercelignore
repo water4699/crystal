@@ -1,0 +1,14 @@
+node_modules
+.next
+.cache
+# Ignore specific artifacts subdirectories, but keep contracts
+artifacts/@fhevm
+artifacts/build-info
+# Ignore localhost deployments, but keep sepolia
+deployments/localhost
+deployments/*/solcInputs
+fhevmTemp
+types
+coverage
+*.log
+
